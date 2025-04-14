@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "noUncheckedIndexedAccess": true,
+    "paths": {
+      "@lib/*": ["./apps/expo/lib/*"],
+      "app/*": ["./packages/app/*"],
+      "@components/*": ["./apps/expo/components/*"]
+    },
+    "baseUrl": ".",
+    "jsx": "react-jsx"
+  }
+}
